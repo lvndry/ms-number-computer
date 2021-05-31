@@ -6,7 +6,8 @@
     "main": "manager.js",
     "scripts": {
         "development": "node manager.js",
-        "test": "mocha **.spec.js"
+        "test": "mocha **.spec.js",
+        "ci": "nom test"
     },
     "devDependencies": {
         "mocha": "^4.0.1",
